@@ -1,4 +1,4 @@
-# ignite-gradle
+# flint-gradle
 
 A Spark + Gradle template for your new, amazing web app.
 
