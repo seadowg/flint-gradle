@@ -1,0 +1,20 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+apply plugin:'application'
+
+group = 'com.example'
+version = '1.0-SNAPSHOT'
+description = ""
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+mainClassName = "com.example.App"
+
+repositories {
+
+     maven { url "http://repo.maven.apache.org/maven2" }
+}
+
+dependencies {
+    compile group: 'com.sparkjava', name: 'spark-core', version:'2.0.0'
+}
