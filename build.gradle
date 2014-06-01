@@ -11,7 +11,6 @@ targetCompatibility = 1.8
 mainClassName = "com.example.App"
 
 repositories {
-
      maven { url "http://repo.maven.apache.org/maven2" }
 }
 
